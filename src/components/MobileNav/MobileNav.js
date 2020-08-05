@@ -40,6 +40,14 @@ const MobileNav = () => {
             tooltipPosition="bottom"
           />
         </NavLink>
+        <NavLink to="/awards">
+          <NavButton
+            hasIconOnly
+            renderIcon={Awards32}
+            iconDescription="Awards"
+            tooltipPosition="bottom"
+          />
+        </NavLink>
       </NavWrapper>
     </Container>
   )
