@@ -16,7 +16,7 @@ const Awards = ({ user }) => {
                 <AwardedByTitle>{awards.awarder}</AwardedByTitle>
                 <span> &sdot; </span>
                 <span>
-                  {awards.fullDate.month},{awards.fullDate.year},
+                  Valid from: {awards.fullDate.month}, {awards.fullDate.year}
                 </span>
               </div>
               <Paragraph>{awards.summary}</Paragraph>
